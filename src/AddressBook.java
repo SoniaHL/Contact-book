@@ -32,5 +32,7 @@ public class AddressBook {
 		book.addBuddy(buddy);
 		book.removeBuddy(buddy);
 		
+		BuddyInfo buddy2 = new BuddyInfo("Sonia","123","123");
+		
 	}
 }
