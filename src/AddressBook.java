@@ -33,6 +33,7 @@ public class AddressBook {
 		book.removeBuddy(buddy);
 		
 		BuddyInfo buddy2 = new BuddyInfo("Sonia","123","123");
+		BuddyInfo buddy3 = new BuddyInfo("Chuck","123","123");
 		
 	}
 }
