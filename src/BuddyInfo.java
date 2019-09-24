@@ -3,6 +3,7 @@ public class BuddyInfo {
 	private String name;
 	private String address;
 	private String phone;
+	private String planet;
 	
 	public BuddyInfo(String name, String address, String phone) {
 		this.name = name;
@@ -36,6 +37,10 @@ public class BuddyInfo {
 
 	public void setPhone(String phone) {
 		this.phone = phone;
+	}
+	
+	public String getPlanet() {
+		return this.planet;
 	}
 
 	public static void main(String[] args) {
